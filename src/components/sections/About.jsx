@@ -17,7 +17,8 @@ const About = () => {
           <p className="text-slate-300 leading-relaxed mb-6">
             Our approach is straightforward—we focus on what matters: modern architecture, clean code, and results-driven design. No unnecessary complexity. No bloated features. Just solid engineering that converts.
           </p>
-          <p className="text-slate-300 leading-relaxed mb-6">
+          <p className="text-white font-semibold mb-6">Speed • Quality • Modern Tech</p>
+          <p className="text-slate-300 leading-relaxed">
             Whether you need a simple landing page or a complex fullstack application, we deliver on time, on budget, and with the polish that impresses clients.
           </p>
         </div>

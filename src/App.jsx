@@ -1,8 +1,8 @@
 ﻿import Navbar from "./components/layout/Navbar";
 import Hero from "./components/sections/Hero";
 import Services from "./components/sections/Services";
-import TechStack from "./components/sections/TechStack";
 import Projects from "./components/sections/Projects";
+import TechStack from "./components/sections/TechStack";
 import About from "./components/sections/About";
 import Testimonials from "./components/sections/Testimonials";
 import Contact from "./components/sections/Contact";
@@ -15,8 +15,8 @@ function App() {
       <main className="pt-20">
         <Hero />
         <Services />
-        <TechStack />
         <Projects />
+        <TechStack />
         <About />
         <Testimonials />
         <Contact />

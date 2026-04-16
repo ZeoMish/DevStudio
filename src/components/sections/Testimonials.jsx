@@ -9,6 +9,11 @@ const testimonials = [
     name: "Marcus Johnson",
     role: "CTO at Blueprint Ventures",
   },
+  {
+    quote: "Going from no online ordering to handling hundreds of orders daily was seamless with their platform. The customer support was exceptional throughout.",
+    name: "Emily Rodriguez",
+    role: "Operations Manager at Artisan Eats",
+  },
 ];
 
 const Testimonials = () => {

@@ -20,10 +20,10 @@
 
         <div className="flex flex-col items-center gap-3 sm:flex-row sm:justify-center">
           <a href="#contact" className="inline-flex items-center justify-center rounded-xl bg-linear-to-r from-indigo-500 to-cyan-500 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-cyan-500/20 transition hover:-translate-y-0.5">
-            Start your project
+            Get a Website
           </a>
           <a href="#projects" className="inline-flex items-center justify-center rounded-xl border border-slate-700 bg-slate-900/80 px-6 py-3 text-sm font-medium text-slate-200 transition hover:border-cyan-500 hover:text-white">
-            View case studies
+            View Our Work
           </a>
         </div>
       </div>

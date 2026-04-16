@@ -14,27 +14,51 @@
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {[{
             title: "Hotel Booking Platform",
+            category: "Hospitality SaaS",
             summary: "Booking management made fast and reliable for hotels and travel services.",
+            problem: "Hotels needed a dependable booking engine that handled availability, payments, and confirmations in one place.",
+            solution: "Built a web platform with real-time availability checks, secure card payments, and automated guest notifications.",
+            result: "Improved booking conversion and reduced manual reservation errors.",
             tags: ["React", "Node", "Stripe"],
           }, {
             title: "Pizza Ordering System",
+            category: "Food Tech",
             summary: "Smart online ordering with real-time kitchen updates and order tracking.",
+            problem: "Local restaurants lacked a modern ordering experience and real-time order status for customers.",
+            solution: "Delivered a sleek ordering flow with live kitchen tracking and push notifications.",
+            result: "Increased order frequency and reduced call volume.",
             tags: ["Next.js", "TypeScript", "Firebase"],
           }, {
             title: "SaaS Analytics Dashboard",
+            category: "Business Intelligence",
             summary: "Data-driven dashboards to help teams monitor revenue, usage, and growth.",
+            problem: "Teams struggled to surface product metrics and take action from raw data.",
+            solution: "Created a fully customizable analytics dashboard with charts, filters, and exports.",
+            result: "Enabled faster decisions with clear real-time insights.",
             tags: ["React", "D3.js", "PostgreSQL"],
           }, {
             title: "E-commerce Storefront",
+            category: "Retail",
             summary: "A fast, conversion-first storefront with secure payment and inventory sync.",
+            problem: "The client needed an online shop that looked premium and handled product updates automatically.",
+            solution: "Built a polished storefront with inventory sync, checkout flow, and merchandising controls.",
+            result: "Lifted average order value and increased repeat purchases.",
             tags: ["Next.js", "Tailwind", "Stripe"],
           }, {
             title: "Project Management Tool",
+            category: "Productivity",
             summary: "A clean workspace for teams to manage tasks, roadmaps and communication.",
+            problem: "Teams were using fragmented tools and wanted a single place to plan work.",
+            solution: "Developed a collaboration dashboard with task boards, timelines, and team chat.",
+            result: "Streamlined planning and improved project visibility.",
             tags: ["React", "WebSockets", "PostgreSQL"],
           }, {
             title: "Brand Website Redesign",
+            category: "Marketing",
             summary: "Modern brand presence with compelling storytelling and polished UX.",
+            problem: "The previous site felt outdated and failed to showcase the brand’s value.",
+            solution: "Redesigned the site with a bold visual system, performance-first layout, and conversion-focused copy.",
+            result: "Increased lead quality and time on page.",
             tags: ["Figma", "React", "SEO"],
           }].map((project) => (
             <div
@@ -43,9 +67,28 @@
             >
               <div className="relative mb-6 overflow-hidden rounded-3xl bg-linear-to-br from-slate-800 via-slate-900 to-slate-950 p-6">
                 <span className="absolute inset-x-0 top-0 h-1 bg-cyan-500/20 blur-xl"></span>
-                <h3 className="text-2xl font-semibold text-white">{project.title}</h3>
+                <div className="flex items-center justify-between gap-4">
+                  <h3 className="text-2xl font-semibold text-white">{project.title}</h3>
+                  <span className="rounded-full border border-slate-700 px-3 py-1 text-xs uppercase tracking-[0.24em] text-slate-400">
+                    {project.category}
+                  </span>
+                </div>
               </div>
-              <p className="text-slate-400 mb-6 leading-relaxed">{project.summary}</p>
+              <p className="text-slate-400 mb-5 leading-relaxed">{project.summary}</p>
+              <div className="space-y-4 mb-6 text-sm">
+                <div>
+                  <p className="font-semibold text-white mb-1">Problem</p>
+                  <p className="text-slate-400 leading-relaxed">{project.problem}</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-white mb-1">Solution</p>
+                  <p className="text-slate-400 leading-relaxed">{project.solution}</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-white mb-1">Result</p>
+                  <p className="text-slate-400 leading-relaxed">{project.result}</p>
+                </div>
+              </div>
               <div className="flex flex-wrap gap-2 mb-6">
                 {project.tags.map((tag) => (
                   <span key={tag} className="rounded-full bg-slate-800 px-3 py-1 text-xs text-slate-300">

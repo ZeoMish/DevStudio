@@ -4,7 +4,6 @@ import Services from "./components/sections/Services";
 import TechStack from "./components/sections/TechStack";
 import Projects from "./components/sections/Projects";
 import About from "./components/sections/About";
-import Stats from "./components/sections/Stats";
 import Testimonials from "./components/sections/Testimonials";
 import Contact from "./components/sections/Contact";
 
@@ -19,7 +18,6 @@ function App() {
         <TechStack />
         <Projects />
         <About />
-        <Stats />
         <Testimonials />
         <Contact />
       </main>

@@ -4,7 +4,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="w-full fixed top-0 left-0 z-50 border-b border-slate-700/20 bg-slate-950/95 backdrop-blur-md">
+    <nav className="w-full fixed top-0 left-0 z-50 border-b border-slate-800/30 bg-[#020617]/95 backdrop-blur-md">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
 
         <div className="flex items-center gap-3">
@@ -42,7 +42,7 @@ const Navbar = () => {
       </div>
 
       <div
-        className={`md:hidden absolute top-full left-0 w-full bg-slate-950/98 border-b border-slate-800 shadow-2xl transition-all duration-300 overflow-hidden ${
+        className={`md:hidden absolute top-full left-0 w-full bg-[#020617]/98 border-b border-slate-800 shadow-2xl transition-all duration-300 overflow-hidden ${
           open ? "max-h-72 opacity-100" : "max-h-0 opacity-0"
         }`}
       >

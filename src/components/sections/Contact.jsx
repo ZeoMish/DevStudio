@@ -2,7 +2,7 @@
 
 const Contact = () => {
   return (
-    <section id="contact" className="bg-[#050713] text-white py-24 px-6">
+    <section id="contact" className="bg-[#020617] text-white py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <p className="text-sm uppercase tracking-[0.35em] text-cyan-400/90 mb-4">Let's build together</p>

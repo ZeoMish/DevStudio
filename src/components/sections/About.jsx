@@ -6,7 +6,7 @@
 
 const About = () => {
   return (
-    <section id="about" className="bg-slate-900 text-white py-24 px-6">
+    <section id="about" className="bg-[#020617] text-white py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <p className="text-sm uppercase tracking-[0.35em] text-cyan-400/80 mb-4">About Us</p>

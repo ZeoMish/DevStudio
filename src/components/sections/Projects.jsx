@@ -63,13 +63,13 @@
           }].map((project) => (
             <div
               key={project.title}
-              className="group overflow-hidden rounded-4xl border border-slate-800/90 bg-slate-900/80 p-6 shadow-[0_20px_60px_-30px_rgba(15,23,42,0.8)] transition hover:-translate-y-1 hover:border-cyan-500/50"
+              className="group overflow-hidden rounded-4xl border border-slate-800/90 bg-slate-900/80 p-8 shadow-[0_25px_70px_-35px_rgba(15,23,42,0.9)] transition hover:-translate-y-1 hover:border-cyan-500/50"
             >
               <div className="relative mb-6 overflow-hidden rounded-3xl bg-linear-to-br from-slate-800 via-slate-900 to-slate-950 p-6">
                 <span className="absolute inset-x-0 top-0 h-1 bg-cyan-500/20 blur-xl"></span>
-                <div className="flex items-center justify-between gap-4">
-                  <h3 className="text-2xl font-semibold text-white">{project.title}</h3>
-                  <span className="rounded-full border border-slate-700 px-3 py-1 text-xs uppercase tracking-[0.24em] text-slate-400">
+                <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                  <h3 className="text-3xl font-semibold text-white max-w-[70%]">{project.title}</h3>
+                  <span className="rounded-full border border-slate-700 px-4 py-2 text-xs uppercase tracking-[0.3em] text-slate-400">
                     {project.category}
                   </span>
                 </div>

@@ -23,10 +23,10 @@ const TechStack = () => {
           {techItems.map((item) => (
             <div
               key={item.title}
-              className="group relative overflow-hidden rounded-[28px] border border-slate-800/80 bg-slate-900/60 p-6 text-left shadow-[0_20px_60px_-40px_rgba(15,23,42,0.9)] transition duration-300 hover:-translate-y-1 hover:border-cyan-400/60 hover:bg-slate-900/90"
+              className="group relative overflow-hidden rounded-[28px] border border-slate-800/80 bg-slate-900/70 p-8 text-left shadow-[0_25px_70px_-40px_rgba(15,23,42,0.9)] transition duration-300 hover:-translate-y-1 hover:border-cyan-400/60 hover:bg-slate-900"
             >
               <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-transparent via-cyan-400/40 to-transparent opacity-0 transition duration-300 group-hover:opacity-100" />
-              <div className="relative">
+              <div className="relative min-h-[120px]">
                 <h3 className="text-xl font-semibold text-white mb-2">{item.title}</h3>
                 <p className="text-sm text-slate-400">{item.label}</p>
               </div>

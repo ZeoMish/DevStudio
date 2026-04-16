@@ -24,7 +24,7 @@ const Testimonials = () => {
         <h2 className="text-4xl font-semibold">Loved by Clients</h2>
       </div>
 
-      <div className="grid gap-6">
+      <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-3">
         {testimonials.map((item) => (
           <div key={item.name} className="rounded-[32px] border border-slate-800/80 bg-slate-900/60 p-8 shadow-[0_20px_60px_-40px_rgba(15,23,42,0.9)]">
             <p className="text-slate-100 leading-relaxed mb-8">“{item.quote}”</p>
